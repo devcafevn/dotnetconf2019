@@ -45,7 +45,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-    color: #666666;
+    color: #68217a;
 }
 
 header .navbar {
@@ -815,7 +815,6 @@ header {
 }
 
     header .navbar ul.navbar-nav li a {
-        color: #23527c;
         background: none;
     }
 
@@ -863,19 +862,19 @@ header {
         }
 
     header .navbar.scrolled {
-        border-bottom: 3px solid #3b4670;
+        border-bottom: 3px solid #672f81;
     }
 
         header .navbar.scrolled ul.navbar-nav li a {
-            color: #3b4670;
+            color: #672f81;
         }
 
             header .navbar.scrolled ul.navbar-nav li a:hover {
-                color: #3b4670;
+                color: #672f81;
             }
 
                 header .navbar.scrolled ul.navbar-nav li a:hover:after {
-                    background: #3b4670;
+                    background: #672f81;
                 }
 
         header .navbar.scrolled .navbar-brand {
@@ -883,21 +882,21 @@ header {
         }
 
 section .section-heading .divider:after {
-    background: #37d0fb;
+    background: #672f81;
 }
 
 section#about .about-item i.fa {
-    border: 2px solid #37d0fb;
-    color: #37d0fb;
+    border: 2px solid #672f81;
+    color: #672f81;
 }
 
 section#about .about-item:hover i.fa {
     color: #ffffff;
-    background: #37d0fb;
+    background: #672f81;
 }
 
 section#about .about-item:hover h3 {
-    color: #37d0fb;
+    color: #672f81;
 }
 
 section#features {
@@ -1074,22 +1073,22 @@ section#support .media:hover h3 {
 }
 /* footer section */
 footer {
-    background: #37d0fb;
+    background: #68217a;
     color: #ffffff;
     /* Old browsers */
-    background: -moz-linear-gradient(-45deg, #37d0fb 0%, #3b4670 100%);
+    background: -moz-linear-gradient(-45deg, #68217a 0%, #672f81 100%);
     /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #37d0fb), color-stop(100%, #3b4670));
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #68217a), color-stop(100%, #672f81));
     /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(-45deg, #37d0fb 0%, #3b4670 100%);
+    background: -webkit-linear-gradient(-45deg, #68217a 0%, #672f81 100%);
     /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(-45deg, #37d0fb 0%, #3b4670 100%);
+    background: -o-linear-gradient(-45deg, #68217a 0%, #672f81 100%);
     /* Opera 11.10+ */
-    background: -ms-linear-gradient(-45deg, #37d0fb 0%, #3b4670 100%);
+    background: -ms-linear-gradient(-45deg, #68217a 0%, #672f81 100%);
     /* IE10+ */
-    background: linear-gradient(-45deg, #37d0fb 0%, #3b4670 100%);
+    background: linear-gradient(-45deg, #68217a 0%, #672f81 100%);
     /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#37d0fb, endColorstr=#3b4670, GradientType=1);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#68217a, endColorstr=#672f81, GradientType=1);
     /* IE6-9 fallback on horizontal gradient */
 }
 
@@ -1125,14 +1124,14 @@ footer {
 }
 
 .btn.btn-primary {
-    color: #37d0fb;
-    border-color: #37d0fb;
+    color: #68217a;
+    border-color: #68217a;
 }
 
     .btn.btn-primary:hover {
         color: #ffffff;
-        background: #37d0fb;
-        border-color: #37d0fb;
+        background: #68217a;
+        border-color: #68217a;
     }
 
     .btn.btn-primary.inverse {
@@ -1142,8 +1141,8 @@ footer {
 
         .btn.btn-primary.inverse:hover {
             color: #ffffff;
-            background: #37d0fb;
-            border-color: #37d0fb;
+            background: #68217a;
+            border-color: #68217a;
         }
 
 .btn.btn-default {

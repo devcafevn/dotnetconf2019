@@ -1,4 +1,24 @@
-﻿footer a{
+﻿header {
+    background: url(../images/backgroud.jpg) center center;
+    background-size: cover;
+    height: 670px;
+}
+
+header .navbar .navbar-brand {
+    color:white;
+    font-size: 28px;
+}
+
+header .navbar .navbar-brand:hover {
+    color:white;
+}
+
+header .navbar.scrolled .navbar-brand {
+    color: #672f81;
+}
+
+
+footer a{
     color:white;
 }
 
@@ -18,7 +38,7 @@
     }
 
     .timer-simple .timer-simple-body .brand-heading {
-        font-size: 40px;
+        font-size: 30px;
     }
 
     .timer-simple .timer-simple-body .intro-text {
@@ -116,13 +136,13 @@ div.modal-body {
 }
 
     #divTimer div {
-        margin: 20px;
+        margin: 15px;
         display: inline-block;
-        padding: 25px;
-        min-width: 120px;
-        background-color: #0094ff;
-        color: #ffffff;
-        font-size: 48px;
+        padding: 15px;
+        min-width: 80px;
+        background-color: #fff;
+        color: #68217a;
+        font-size: 30px;
         font-weight: 600;
         text-align: center;
         line-height: 1.2;
@@ -136,8 +156,8 @@ div.modal-body {
 
 .btn.register {
     text-transform: uppercase;
-    background-color: #0094ff;
-    color: white;
+    background-color: #fff;
+    color: 68217a;
     padding: 15px 55px;
     font-weight: bold;
     font-size: x-large;
