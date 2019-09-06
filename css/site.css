@@ -740,10 +740,6 @@ form textarea.form-control {
         margin-top: 20px;
     }
 
-    header .navbar {
-        padding: 20px;
-    }
-
         header .navbar .navbar-toggle {
             margin-top: 0px;
             margin-right: 0px;
@@ -1209,7 +1205,7 @@ form .form-control:focus {
         }
 
     header .navbar.scrolled {
-        background: #3b4670;
+        background: #ffffff;
     }
 
         header .navbar.scrolled ul.navbar-nav li a {
