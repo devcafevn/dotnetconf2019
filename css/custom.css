@@ -1,12 +1,16 @@
 ﻿header {
     background: url(../images/backgroud.jpg) center center;
     background-size: cover;
-    height: 670px;
+    height: 720px;
 }
 
 header .navbar .navbar-brand {
     color:white;
-    font-size: 28px;
+    font-size: 24px;
+}
+
+header .navbar .navbar-brand:focus {
+    color:white;
 }
 
 header .navbar .navbar-brand:hover {
@@ -15,6 +19,35 @@ header .navbar .navbar-brand:hover {
 
 header .navbar.scrolled .navbar-brand {
     color: #672f81;
+}
+
+.header-text {
+    padding-top: 102px;
+    color: white;
+}
+
+
+.header-name {
+    padding: 0px 20px;
+    width: 450px;
+    font-size: 60px;
+    font-weight: bold;
+    background: rgba(182, 12, 204, 0.8);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.header-info {
+    margin-top: 5px;
+    padding: 0 10px;
+    font-size: 27px;
+    width: 450px;
+    background: rgba(231, 155, 13, 0.8);
+    border-radius: 5px;
+}
+
+.event-date {
+    color: coral;
 }
 
 
@@ -51,7 +84,7 @@ footer a{
     height: 100%;
     text-align: center;
     color: #fff;
-    padding-bottom: 20px;
+    padding-bottom: 60px !important;
 }
 
     .intro .intro-body {
